@@ -1,0 +1,87 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin: auto;
+    font-size: small;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#left{
+    background: linear-gradient(to left, green, yellow, blue);
+}
+
+#right{
+    background: linear-gradient(to right, green, yellow, blue);
+}
+
+#top{
+    background: linear-gradient(to top, green, yellow, blue);
+}
+
+#bottom{
+    background: linear-gradient(to bottom, green, yellow, blue);
+}
+
+#bottomleft{
+    background: linear-gradient(to bottom left, green, yellow, blue);
+}
+
+#bottomright{
+    background: linear-gradient(to bottom right, green, yellow, blue);
+}
+
+#topleft{
+    background: linear-gradient(to top left, green, yellow, blue);
+}
+
+#topright{
+    background: linear-gradient(to top right, green, yellow, blue);
+}
+
+#deg{
+    background: linear-gradient(75deg, green, yellow, blue);
+}
+
+#deg1{
+    background: linear-gradient(30deg, green, yellow, blue);
+}
+
+#turn{
+    background: linear-gradient(0.7turn, green, yellow, blue);
+}
+
+#turn1{
+    background: linear-gradient(0.2turn, green, yellow, blue);
+}
+
+#per{
+    background: linear-gradient( to right, green 0% 33%, yellow 33% 66%, blue 66% 100%);
+}
+
+#per1{
+    background: linear-gradient( to bottom right, green 0% 33%, yellow 33% 66%, blue 66% 100%);
+}
+
+#per2{
+    background: linear-gradient( to bottom, green 0% 33%, yellow 33% 66%, blue 66% 100%);
+}
+
+#var{
+    background: linear-gradient(to right, rgba(0, 0, 0, 30%), rgba(20, 50, 20, 70% )),
+    linear-gradient(to top, rgb(0, 100, 0 ), rgb(0, 0, 100 ));
+    
+}
+
+
+
+
+
+

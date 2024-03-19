@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício 19.2</title>
+
+        <style>
+
+            h1{
+                text-align: center;
+            }
+
+            img {
+                border: 3px solid black;
+            }
+        
+        </style>
+
+
+
+    </head>
+
+
+    <body>
+
+        <h1>PICTURE</h1>
+
+        <hr>
+
+        <h3>----Exemplo de "picture" para 3 ecrãs (até 500px) (até 900px) (maiores que 900px)----</h3>
+
+       <picture>
+
+        <source width="290" srcset="fruta-1.png" media="(max-width:500px)">
+        <source width="390" srcset="fruta-2.jpg" media="(max-width:900px)">
+        <img src="fruta-3.png" alt="fruta-3" width="800">
+
+       </picture>
+        
+    </body>
+
+    
+</html>

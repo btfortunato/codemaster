@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+    
+}
+
+h4, span{
+    font-family: Lucida Sans;
+    font-size: 0.75rem;
+    color: white;
+    margin: 0px;
+    
+}
+
+#topo1{
+    text-transform: uppercase;
+    background-color: lightgray;
+}
+
+.head, .rodape {
+    background-color: black;
+    padding: 10px 10px;
+}
+
+
+#menu1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+#menu1 .especial{   
+    display: flex;
+    flex-direction: column;
+
+}
+
+#menu1 a{
+    
+    color: white;
+    padding: 20px 40px;
+    text-decoration: none;
+    transition-duration: 1s ;
+    
+}
+
+#menu1 a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+
+#menu1 .especial span:nth-child(2){
+    color: rgb(125, 125, 125);
+    font-size: 10px;
+    display: none;
+}
+
+
+#menu1 .especial:hover span:nth-child(2){display: inline;}
+
+.surpresa{
+    
+    
+    display: flex;
+    position:relative;
+    justify-content:center;  
+    flex-wrap: wrap; 
+    padding: 20px 0px;     
+    background-color: rgb(120, 0, 0);
+    gap: 10px;
+   
+    
+}
+
+.sur{
+    width:200px;
+    height: 200px;
+    border: 1px solid white;
+    cursor: pointer;
+    box-sizing: border-box;
+
+
+}
+
+
+
+#sur1:hover{
+    background-image: url("joia-1.webp");
+    background-size: cover;
+  
+}
+
+#sur2:hover{
+    background-image: url("joia-2.jpg");
+    background-size: cover;
+  
+}
+
+#sur3:hover {
+    background-image: url("joia-3.jpg");
+    background-size: cover;
+    
+  
+}
+
+.texto{
+    text-align: justify;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+
+#sur4:hover{
+    background-image: url("joia-4.webp");
+    background-size: cover;
+  
+}
+
+#sur5:hover{
+    background-image: url("joia-5.avif");
+    background-size: cover;
+  
+}
+
+.desc{width: 100%;}
+
+
+.sur img{
+    width: 100%;
+    display: none;
+}
+.sur:hover img{display: block;}
+
+
+.desc{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    padding: 8px 25px;
+    width: 143px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    border-radius: 50px;
+    box-sizing: border-box;  
+
+       
+            
+}
+
+.desc div span{display: none;}
+.surpre:hover ~ .desc div span{display: inline;}
+
+#meio1{
+    background-color:lightgray;
+    padding: 0px 10px;
+}

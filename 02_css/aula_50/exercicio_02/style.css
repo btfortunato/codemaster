@@ -1,0 +1,83 @@
+body > div{
+       
+    border: 1px solid black;
+    padding: 20px 20px;
+    background-color: lightgreen;
+    margin: auto;
+    width: 500px;  
+    height: 300px;     
+    font-size: 15px; 
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.filha{
+    
+    background-color: lightcoral;
+    border: 1px solid darkblue;    
+}
+
+#pai1{
+    display: grid;
+}
+
+#pai2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+#pai3{
+    display: grid;
+    grid-template-columns: auto auto 50%;
+}
+
+#pai4{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+      
+}
+
+#pai4 .filha1{    
+    grid-column-start: 2;    
+      
+}
+
+#pai4 .filha9{    
+    display: none;   
+      
+}
+
+#pai5{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+      
+}
+
+#pai5 .filha1{    
+    grid-column-start: 1;    
+    grid-column-end: 3;
+      
+}
+
+#pai5 .filha9{    
+    display: none;   
+      
+}
+
+#pai6{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+      
+}
+
+#pai6 .filha1{    
+    grid-row-start: 1;    
+    grid-row-end: 3;
+      
+}
+

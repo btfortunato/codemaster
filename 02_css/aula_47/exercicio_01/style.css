@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+@font-face {
+    src: url("/02_css/aula_47/exercicio_01/Honk-Regular.ttf");
+    font-family: "exer3";
+}
+
+
+div{
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 3px solid black;
+   
+    text-align: center;
+    font-size: 32px;
+}
+
+h1{text-align: center;
+font-family: Bungee Inline ;
+font-size: 40px;
+
+}
+
+#workbench{
+    font-family: workbench;
+    background-color: lightgreen;
+
+}
+
+#rub{
+    font-family: "Rubik Glitch Pop";
+    background-color: lightskyblue;
+
+}
+
+#honk{
+    font-family: "exer3";
+    background-color: black;
+}
+
+#molgite{
+    font-family: mogilte;
+    background-color: pink;
+}

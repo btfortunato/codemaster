@@ -1,0 +1,44 @@
+h1, h3{
+    text-align: center;
+}
+body{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+    background-color: orange;
+    margin-right: 1100px;
+    
+    
+    
+    
+
+}
+
+
+
+
+.azul{
+    background-color: blue;
+   
+    margin: 0px auto;
+    color: white;
+    
+    
+    
+}
+
+.verde{
+    background-color: green;
+    margin-top: -50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.vermelho{
+    background-color: red;
+    
+  
+
+}

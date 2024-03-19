@@ -1,0 +1,67 @@
+body{
+    background-color: aqua;
+    background-attachment:fixed;
+    
+}
+
+.passaros{
+    height: 150px;
+}
+
+.sol{
+    height: 150px;
+}
+
+img{
+    height: 50px;
+    margin: 0px 60px;
+}
+
+p{
+    text-align: left;
+    background-color:#663313;
+    color: white;
+    height: 80px;
+    margin: -15px 0px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    
+}
+
+.pequena{
+    height: 110px;
+    margin: 0px 10px;
+}
+
+.media{
+    height: 150px;
+    margin: 0px 10px;
+}
+
+.grande{
+    height: 220px;
+    margin: 0px 10px;
+}
+
+.quasegrande{
+    height: 180px;
+    margin: 0px 10px;
+}
+
+.pequenina{
+    height: 80px;
+    margin: 0px 10px;
+}
+
+#margin{
+    text-align: center;
+    
+
+}
+
+.minhoca{
+    height: 50px;
+    margin: 0px 50px;
+    
+}

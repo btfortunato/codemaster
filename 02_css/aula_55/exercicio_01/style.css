@@ -1,0 +1,98 @@
+div{     
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: red;        
+    font-size: 20px; 
+   
+    
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#pai1{
+    animation-duration: 3s;
+    animation-name: mover;
+    
+
+}
+
+#pai2{
+    animation-name: mover;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+}
+
+#pai3{
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#pai4{
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+#pai5{
+    animation-name: mover;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+
+#pai6{
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+   
+#pai7{
+    
+    animation: mover 4s infinite alternate linear 2s, 
+    rodar 4s infinite alternate linear 2s ; 
+  
+}
+   
+    
+
+@keyframes mover {
+    from{ 
+        left: 0px;
+        background-color: red;
+
+    }
+
+    to{
+        left:300px;
+        background-color: yellow;
+
+    }
+
+}
+
+@keyframes rodar {
+    from{ 
+        transform: rotate(0deg);
+        border: 2px solid green;
+       
+
+    }
+
+    to{
+        transform: rotate(360deg);
+        border: 40px solid lightskyblue;
+        
+
+    }
+
+}

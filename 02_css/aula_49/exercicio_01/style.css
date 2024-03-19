@@ -1,0 +1,40 @@
+div{
+    margin: auto;    
+    border: 5px solid black;
+    padding: 10px 10px;
+    background-color: lightgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;    
+    
+  
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#pai{
+    box-sizing: content-box;
+     
+} 
+
+#pai2{
+    box-sizing: border-box;
+   
+} 
+
+#pai3{
+    
+    box-sizing: border-box;
+    outline: 5px solid red;
+     
+} 
+
+#pai4{
+    box-sizing: border-box;
+    outline-offset: 5px;
+    outline: 5px solid red;
+   
+} 
+

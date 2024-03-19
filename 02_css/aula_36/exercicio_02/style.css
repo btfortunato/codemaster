@@ -1,0 +1,92 @@
+
+body{
+    text-align: center;
+    background-color: rgb(199, 190, 190);
+}
+
+button{
+    border-radius: 3px;
+    background-color: rgb(213, 208, 208);
+}
+
+.default{
+    cursor: default;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.wait{
+    cursor: wait;
+}
+
+.grab{
+    cursor: grab;
+}
+
+.grabbing{
+    cursor: grabbing;
+}
+
+.crosshair{
+    cursor: crosshair;
+}
+
+.zoom-in{
+    cursor: zoom-in;
+}
+
+.zoom-out{
+    cursor: zoom-out;
+}
+
+.all-scroll{
+    cursor: all-scroll;
+}
+
+.cell{
+    cursor: cell;
+}
+
+.copy{
+    cursor: copy;
+}
+
+.help{
+    cursor: help;
+}
+
+.progress{
+    cursor: progress;
+}
+
+.ver{
+    background-color: red;
+    border: 3px dotted black;
+    height: 40px;
+    width: 100px;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.verde{
+    background-color: green;
+    border: 3px dotted black;
+    height: 40px;
+    width: 100px;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.az{
+    background-color: blue;
+    border: 3px dotted black;
+    height: 40px;
+    width: 100px;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: white;
+}

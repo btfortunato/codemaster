@@ -1,0 +1,54 @@
+body{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: #01426A;
+}
+
+footer{
+    background-color: #01426A;
+}
+
+#voltar {
+    
+    border-radius: 5px;
+    border: 2px solid #01426A; 
+    width: 80px;
+    text-align: center;
+    background-color: #01426A;
+    position: relative;
+    transition: 0.3s ;
+    color: white;
+
+}
+
+img {
+
+    border-radius: 5px;
+    border: 2px solid #01426A; ;
+
+}
+
+
+nav a{
+    position: relative;
+    transition: 1s ;
+    color: white;
+}
+
+
+nav a:hover {
+   
+    color:#597CBE;
+
+   
+}
+
+
+#voltar:hover{
+    
+    border: 2px solid #597CBE; 
+    color: black;
+
+}

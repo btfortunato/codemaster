@@ -1,0 +1,71 @@
+
+h1{
+    text-align: center;
+}
+
+
+div{
+    width: 150px;
+    height: 130px;
+    border: 1px solid;
+    margin: auto;
+    text-align: justify;
+    padding: 20px 15px;
+    border: 1px solid black;
+    
+         
+}
+
+
+
+#red{
+   
+    background-color: red;
+        
+}
+
+#green{
+    background-color: green;
+    overflow: auto;
+
+}
+
+#blue{
+    background-color: blue;
+    overflow: scroll;
+    
+}
+
+#pink{
+
+    background-color: pink;
+   
+}
+
+#greenlight {
+    background-color: lightgreen;
+    overflow: auto;
+  
+}
+
+#lightblue{
+    background-color: lightskyblue;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+#orange{
+
+    background-color: orange;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+#purple{
+
+    background-color:purple;    
+    overflow:hidden
+
+}

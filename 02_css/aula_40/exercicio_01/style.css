@@ -1,0 +1,89 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 8px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#radial{
+    background: radial-gradient(green, yellow, blue);
+}
+
+#radial1{
+    background: radial-gradient(closest-side, green ,yellow, blue);
+}
+
+#radial2{
+    background: radial-gradient(closest-corner, green ,yellow, blue);
+}
+
+#radial3{
+    background: radial-gradient(farthest-side, green ,yellow, blue);
+}
+
+#radial4{
+    background: radial-gradient(farthest-corner, green ,yellow, blue);
+}
+
+#radial5{
+    background: radial-gradient(circle at top left, orange ,black, white,red);
+}
+
+#radial6{
+    background: radial-gradient(circle at top right, orange ,black, white,red);
+}
+
+
+#radial7{
+    background: radial-gradient(circle at bottom left, orange ,black, white,red);
+}
+
+
+#radial8{
+    background: radial-gradient(circle at bottom right, orange ,black, white,red);
+}
+
+
+#radial9{
+    background: radial-gradient(circle at 50% 0%, green, yellow, blue, white);
+}
+
+#radial10{
+    background: radial-gradient(circle at 68% 75%, green, yellow, blue, white);
+}
+
+#radial11{
+    background: radial-gradient(ellipse at 68% 75%, green, yellow, blue, white);
+}
+
+#radial12{
+    background: radial-gradient( green 0% 33%, yellow 33% 66%, blue 66% 99%);
+}
+
+#radial13{
+    background: radial-gradient(circle at top right, orange ,black, white);
+    background: radial-gradient(circle at top right, blue ,green, red);
+    background: radial-gradient(circle at top right, gray ,purple, red);
+}
+
+#radial14{
+    background: radial-gradient( rgba(0, 128, 0, 0.575) , rgba(255, 255, 0, 0.527) , rgba(0, 0, 255, 0.541)),
+    linear-gradient(to bottom right, green 0% 33%,  yellow 33% 66%, blue 66% 99% );
+    
+}
+
+
+
+
+
+
+

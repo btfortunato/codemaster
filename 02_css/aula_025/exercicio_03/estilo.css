@@ -1,0 +1,19 @@
+div{
+    background-color: aqua;
+    color: black;
+    text-align: left;
+}
+
+.violet{
+    background-color: rebeccapurple;
+    color: violet;
+    text-align: center;
+
+}
+
+.coral{
+    background-color:coral;
+    color: black;
+    text-align: right;
+
+}

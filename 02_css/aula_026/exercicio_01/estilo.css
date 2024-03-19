@@ -1,0 +1,25 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.verde{
+    color: aqua;
+    
+}
+
+.violeta{
+    border: 4px solid red;
+    background-color: purple;
+}
+
+.laranja{
+    border: 3px dashed aqua;
+    background-color: orangered;
+    border-radius: 20px;
+}
+

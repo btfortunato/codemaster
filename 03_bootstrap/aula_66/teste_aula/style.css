@@ -1,0 +1,16 @@
+body{
+    min-width: 360px;
+    max-width: 1600px;
+    margin: auto;  
+} 
+
+header nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+main .separador{
+    width: 200px;
+    height: 2px;
+}

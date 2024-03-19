@@ -1,0 +1,36 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    text-align: center;
+    
+}
+
+
+div{
+    border: 2px white;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#ponte{
+    background-image: url("/02_css/aula_029/exercicio_01/IMG_20141116_105003297-PANO.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+
+#praia{
+    background-image: url("/02_css/aula_029/exercicio_01/paisagem600.jpg");
+    
+
+}
+

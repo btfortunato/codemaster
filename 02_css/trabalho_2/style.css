@@ -1,0 +1,119 @@
+
+body{
+    text-align: center;
+}
+
+#caixa{
+    border: 1px solid lightgray;
+    width: 584px;
+    height: 47.6px;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 18px;
+
+}
+
+header  {
+ 
+ padding: 0px 6px;
+  text-align: right;
+        
+
+}
+
+
+
+
+
+.gmail, .imagens{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 7.5px;
+
+}
+
+.lupa{
+    padding-top: 10px;
+    margin-right: 480px;
+    
+}
+
+
+
+button{
+    margin: 11px 4px;
+    padding: 0px 16px;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4px;
+    background-color: rgba(211, 211, 211, 0.23);
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+div > button :hover{
+ 
+    border: 2px solid white;
+    
+    
+
+}
+.espaco{
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.portugal{
+
+    text-align: left;
+    padding: 15px 30px;
+    color: grey;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+
+
+}
+
+span{
+    font-family: arial, sans-serif;
+    color: grey;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: grey;
+
+}
+
+#texto{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+ .english{
+    color: blue;
+ }
+
+footer{
+    background-color: rgba(211, 211, 211, 0.137);
+}
+
+
+nav > :hover{
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+footer > :hover{
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+

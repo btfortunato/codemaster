@@ -1,0 +1,74 @@
+body > div{
+       
+    border: 3px solid black;
+    padding: 20px 20px;
+    background-color: #7A4A91;
+    margin: auto;
+    width: 300px;  
+    height: 300px;     
+    font-size: 20px; 
+    text-align: center;
+    display: flex;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.filha{
+    
+    background-color: #F7941F;
+    
+    border: 2px solid black; 
+    padding: 5px;
+
+}
+
+#pai2{
+    flex-direction: column;
+}
+
+#pai3{
+    flex-direction: row-reverse;
+}
+
+#pai4{
+    flex-direction: column-reverse;
+}
+
+#pai5{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#pai6{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#pai7{
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+#pai8{
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#pai9{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#pai10{
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+#pai11{
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 10px;
+}

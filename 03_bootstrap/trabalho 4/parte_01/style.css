@@ -1,0 +1,62 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+header{
+    background-color: #01426A;
+}
+
+footer{
+    background-color: #01426A;
+}
+
+main > div > div :hover{
+
+
+    background-color: #597CBE;
+    cursor: pointer;
+
+}
+
+@media all and (width >= 800px) {
+
+    .card {
+        border: 2px solid black;
+
+    }
+
+}
+
+@media all and (width <= 800px) {
+
+    .card {
+        background-color: #01426A;
+        color: white;
+        
+    }
+
+    .card-text{
+        display:  none;
+    }
+
+}
+
+
+nav a{
+    position: relative;
+    transition: 1s ;
+    color: white;
+}
+
+
+nav a:hover {
+   
+   color:#597CBE;
+  
+
+   
+}
+
+
+

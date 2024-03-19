@@ -1,0 +1,47 @@
+body > div{
+       
+    border: 1px solid black;
+    padding: 20px 20px;
+    background-color: lightgreen;
+    margin: auto;
+    width: 500px;  
+    height: 300px;     
+    font-size: 15px;
+    
+    
+  
+    
+}
+
+.filha{
+    
+    background-color: salmon;
+    border: 1px solid blue;    
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+#pai1 .filha{
+    display: block;
+    text-align: center;
+}
+
+#pai2 .filha{
+    display: inline;
+    margin: 0px 2px;
+}
+
+#pai3 .filha{
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+}
+
+#pai4 .filha{
+    display: none;
+}
+

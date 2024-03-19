@@ -1,0 +1,46 @@
+div{
+    margin: auto;    
+    border: 5px solid black;
+    padding: 10px 10px;
+    background-color: lightgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 200px;     
+  
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#pai{
+    transform: rotate(45deg);
+     
+} 
+
+#pai2{
+    transform: rotate(0.1225turn);
+   
+} 
+
+#pai3{
+    
+    translate: 400px -100px;
+     
+} 
+
+#pai4{
+    transform: scale(50%);
+   
+} 
+
+
+#pai5{
+    transform: scale(200%);
+   
+} 
+
+#pai6{
+    transform: skew(45deg, 0deg);
+   
+} 
